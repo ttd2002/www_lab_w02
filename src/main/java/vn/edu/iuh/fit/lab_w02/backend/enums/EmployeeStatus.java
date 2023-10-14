@@ -1,14 +1,16 @@
-package vn.edu.iuh.fit.lab_w02.enums;
+package vn.edu.iuh.fit.lab_w02.backend.enums;
 
 public enum EmployeeStatus {
     ACTIVE(1),
     IN_ACTIVE(0),
     TERMINATED(-1);
-    private  int value;
-    EmployeeStatus(int value){
+    private int value;
+
+    EmployeeStatus(int value) {
         this.value = value;
     }
-    public int getValue(){
+
+    public int getValue() {
         return value;
     }
 }

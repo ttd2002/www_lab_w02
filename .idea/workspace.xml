@@ -5,11 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbf99a5-e9e1-4bb2-abcf-b379abed93f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/configs/RootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/enums/ProductStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/ProductPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/EmployeeResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/EmployeeServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/EmployeeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/EmployeeStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/configs/RootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/EmployeeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/enums/EmployeeStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/ProductStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/ProductImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/ProductPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/repositories/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/services/EmployeeServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +54,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Public Environment File" />
         <option value="Class" />
       </list>
     </option>
@@ -53,18 +84,55 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;T:/dai/www_lab_w02/lab_w02&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/beo/WWW/thuchanh/src/main/webapp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\beo\WWW\thuchanh\src\main\webapp" />
+      <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\services" />
+      <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\resources" />
+      <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\repositories" />
+      <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
+    <configuration name="thuchanh [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
@@ -152,6 +220,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.thuchanh [test]" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.11" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.thuchanh [test]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -164,10 +241,24 @@
       <workItem from="1694912180170" duration="954000" />
       <workItem from="1694913378464" duration="61000" />
       <workItem from="1695512934209" duration="2458000" />
+      <workItem from="1697287846362" duration="506000" />
+      <workItem from="1697288373417" duration="111000" />
+      <workItem from="1697288620021" duration="984000" />
+      <workItem from="1697289690059" duration="29000" />
+      <workItem from="1697289996271" duration="28000" />
+      <workItem from="1697290041042" duration="404000" />
+      <workItem from="1697291218140" duration="41000" />
+      <workItem from="1697291295827" duration="59000" />
+      <workItem from="1697291493405" duration="196000" />
+      <workItem from="1697291793120" duration="2761000" />
+      <workItem from="1697295847213" duration="496000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab_w02$thuchanh__test_.ic" NAME="thuchanh [test] Coverage Results" MODIFIED="1697288338660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

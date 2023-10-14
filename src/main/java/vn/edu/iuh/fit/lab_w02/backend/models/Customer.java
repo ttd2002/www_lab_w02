@@ -1,6 +1,8 @@
-package vn.edu.iuh.fit.lab_w02.models;
+package vn.edu.iuh.fit.lab_w02.backend.models;
 
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "customer")
@@ -11,20 +13,22 @@ public class Customer {
     private long id;
     @Column(name = "cust_name", length = 150, nullable = false)
     private String name;
-    @Column(name = "gmail", unique = true, length = 150, nullable = true)
-    private String gmail;
+    @Column(name = "email", unique = true, length = 150, nullable = true)
+    private String email;
     @Column(name = "phone", length = 15, nullable = false)
     private String phone;
     @Column(name = "address", length = 250, nullable = false)
     private String address;
 
+    @OneToMany(mappedBy = "customer")
+    private List<Order> orderList;
+
     public Customer() {
     }
 
-    public Customer(long id, String name, String gmail, String phone, String address) {
-        this.id = id;
+    public Customer(String name, String email, String phone, String address) {
         this.name = name;
-        this.gmail = gmail;
+        this.email = email;
         this.phone = phone;
         this.address = address;
     }
@@ -33,40 +37,48 @@ public class Customer {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getGmail() {
-        return gmail;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setGmail(String gmail) {
-        this.gmail = gmail;
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
     }
 
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
     }
 
     @Override
@@ -74,7 +86,7 @@ public class Customer {
         return "Customer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", gmail='" + gmail + '\'' +
+                ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
                 ", address='" + address + '\'' +
                 '}';
