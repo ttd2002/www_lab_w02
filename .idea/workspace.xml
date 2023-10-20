@@ -4,40 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dbf99a5-e9e1-4bb2-abcf-b379abed93f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/configs/RootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/enums/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/EmployeeResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/EmployeeServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0dbf99a5-e9e1-4bb2-abcf-b379abed93f0" name="Changes" comment="connect db">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/CustomerResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/CustomerServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/CusomerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Customers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Employees.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Insert_Customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Products.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/configs/RootApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/EmployeeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/enums/EmployeeStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/enums/ProductStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/OrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/ProductImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/models/ProductPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/repositories/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/repositories/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/services/EmployeeServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
@@ -55,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Public Environment File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -108,6 +90,9 @@
       <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\resources" />
       <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\repositories" />
       <recent name="D:\beo\WWW\thuchanh\src\main\java\vn\edu\iuh\fit\lab_w02\configs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\beo\WWW\thuchanh\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
@@ -251,12 +236,35 @@
       <workItem from="1697291295827" duration="59000" />
       <workItem from="1697291493405" duration="196000" />
       <workItem from="1697291793120" duration="2761000" />
-      <workItem from="1697295847213" duration="496000" />
+      <workItem from="1697295847213" duration="611000" />
+      <workItem from="1697622254391" duration="2092000" />
+      <workItem from="1697705844764" duration="1764000" />
+      <workItem from="1697723502749" duration="3731000" />
+      <workItem from="1697727326655" duration="800000" />
+      <workItem from="1697728149470" duration="326000" />
+      <workItem from="1697728563619" duration="332000" />
+      <workItem from="1697729027680" duration="502000" />
+      <workItem from="1697729643226" duration="69000" />
+      <workItem from="1697771982908" duration="1903000" />
+      <workItem from="1697773918131" duration="124000" />
     </task>
+    <task id="LOCAL-00001" summary="connect db">
+      <option name="closed" value="true" />
+      <created>1697296383265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697296383265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connect db" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect db" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab_w02$thuchanh__test_.ic" NAME="thuchanh [test] Coverage Results" MODIFIED="1697288338660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

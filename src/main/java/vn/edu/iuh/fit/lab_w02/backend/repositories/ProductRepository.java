@@ -3,7 +3,10 @@ package vn.edu.iuh.fit.lab_w02.backend.repositories;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+import vn.edu.iuh.fit.lab_w02.backend.models.Employee;
 import vn.edu.iuh.fit.lab_w02.backend.models.Product;
+
+import java.util.List;
 
 public class ProductRepository {
     private EntityManager em;
@@ -25,5 +28,8 @@ public class ProductRepository {
             transaction.rollback();
             e.printStackTrace();
         }*/
+    }
+    public List<Product> getAllProduct() {
+        return em.createNamedQuery("Product.findAll", Product.class).getResultList();
     }
 }
