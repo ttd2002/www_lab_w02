@@ -5,8 +5,10 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "order_detail")
 public class OrderDetail {
-    /* @EmbeddedId
-     private OrderDetailPK pk;*/
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "order_detail_id")
+    private long id;
     @Column(name = "quantity", nullable = false)
     private double quantity;
     @Column(name = "price", nullable = false)
@@ -14,11 +16,11 @@ public class OrderDetail {
     @Column(name = "note", length = 255, nullable = true)
     private String note;
 
-    @Id
+
     @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
-    @Id
+
     @JoinColumn(name = "product_id")
     @ManyToOne
     private Product product;
@@ -73,6 +75,14 @@ public class OrderDetail {
 
     public void setProduct(Product product) {
         this.product = product;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     @Override

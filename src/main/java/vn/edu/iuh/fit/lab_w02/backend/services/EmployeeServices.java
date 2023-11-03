@@ -2,6 +2,7 @@ package vn.edu.iuh.fit.lab_w02.backend.services;
 
 
 import vn.edu.iuh.fit.lab_w02.backend.enums.EmployeeStatus;
+import vn.edu.iuh.fit.lab_w02.backend.models.Customer;
 import vn.edu.iuh.fit.lab_w02.backend.models.Employee;
 import vn.edu.iuh.fit.lab_w02.backend.models.Order;
 import vn.edu.iuh.fit.lab_w02.backend.repositories.EmployeeRepository;
@@ -25,7 +26,9 @@ public class EmployeeServices {
     public Optional<Employee> findById(long id) {
         return repository.findbyId(id);
     }
-
+    public void delete_Emp(Employee emp){
+        repository.setStatus(emp);
+    }
     public boolean delete(long id) {
         Optional<Employee> op = findById(id);
         if (op.isPresent()) {

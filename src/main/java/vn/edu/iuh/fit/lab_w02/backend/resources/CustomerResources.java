@@ -24,4 +24,17 @@ public class CustomerResources {
         List<Customer> lst = services.getAll();
         return Response.ok(lst).build();
     }
+    @GET
+    @Produces("application/json")
+    public Response delete(long id){
+        services.deleteCust(id);
+        return Response.ok(id).build();
+    }
+    @GET
+    @Produces("application/json")
+    public Response update(Customer cust){
+        services.updateCust(cust);
+        return Response.ok(cust).build();
+    }
+
 }

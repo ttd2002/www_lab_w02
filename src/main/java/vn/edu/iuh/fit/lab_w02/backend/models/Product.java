@@ -9,8 +9,8 @@ import java.util.List;
 @Entity
 @Table(name = "product")
 @NamedQueries(value = {
-        @NamedQuery(name = "Product.findAll", query = "select p from Product p where p.status = 1"),
-        @NamedQuery(name = "Product.findById", query = "select p from Product p where p.product_id = 1")
+        @NamedQuery(name = "Product.findAll", query = "select p from Product p where p.status =:statusActive"),
+
         //,...1
 })
 public class Product {
@@ -31,12 +31,10 @@ public class Product {
     @Column(name = "status")
     private ProductStatus status;
 
-    @OneToMany(mappedBy = "product")
-    @JoinColumn
+    @OneToMany(mappedBy = "product", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<ProductImage> productImageList = new ArrayList<>();
 
-    @OneToMany(mappedBy = "product")
-    @JoinColumn
+    @OneToMany(mappedBy = "product", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<OrderDetail> orderDetails = new ArrayList<>();
 
     public Product() {

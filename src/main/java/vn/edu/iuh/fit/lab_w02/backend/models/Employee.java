@@ -3,13 +3,13 @@ package vn.edu.iuh.fit.lab_w02.backend.models;
 import jakarta.persistence.*;
 import vn.edu.iuh.fit.lab_w02.backend.enums.EmployeeStatus;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
 @Table(name = "employee")
 @NamedQueries(
-        @NamedQuery(name = "Employee.findAll", query = "select e from Employee e where e.status=1")
+        @NamedQuery(name = "Employee.findAll", query = "select e from Employee e where e.status =:statusActive")
 //        ,@NamedQuery(name = "Employee.findXXXXXXX", query = "select e from Employee e where????")
         //,...
 )
@@ -21,7 +21,7 @@ public class Employee {
     @Column(name = "full_name", length = 150, nullable = false)
     private String fullname;
     @Column(name = "dob", nullable = false)
-    private LocalDateTime dob;
+    private LocalDate dob;
     @Column(name = "email", unique = true, length = 150)
     private String email;
     @Column(name = "phone", length = 15, nullable = false)
@@ -38,7 +38,7 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(String fullname, LocalDateTime dob, String email, String phone, String address, EmployeeStatus status) {
+    public Employee(String fullname, LocalDate dob, String email, String phone, String address, EmployeeStatus status) {
         this.fullname = fullname;
         this.dob = dob;
         this.email = email;
@@ -63,11 +63,11 @@ public class Employee {
         this.fullname = fullname;
     }
 
-    public LocalDateTime getDob() {
+    public LocalDate getDob() {
         return dob;
     }
 
-    public void setDob(LocalDateTime dob) {
+    public void setDob(LocalDate dob) {
         this.dob = dob;
     }
 

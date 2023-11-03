@@ -35,7 +35,7 @@
 
     //out.print("OK");
     //out.print(productRepository.getAllProduct());
-    CustomerRepository customerRepository = new CustomerRepository();
+    //CustomerRepository customerRepository = new CustomerRepository();
 
 %>
     <a href="Products.jsp">List products</a> <br>

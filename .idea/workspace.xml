@@ -5,21 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbf99a5-e9e1-4bb2-abcf-b379abed93f0" name="Changes" comment="connect db">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/CustomerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/CustomerServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/CusomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Customers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Insert_Customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Products.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/db/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/ProductResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/EmployeeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/ProductModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/InsertProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert_Employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update_Customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/CustomerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/CustomerResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/EmployeeResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/resources/EmployeeResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/CustomerServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/CustomerServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/backend/services/EmployeeServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/controller/ServletController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/CusomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/lab_w02/frontend/model/CusomerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Customers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Employees.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Products.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +45,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +95,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/beo/WWW/thuchanh/src/main/webapp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/beo/WWW/baitapthuchanh/www_lab_w02&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -247,6 +273,38 @@
       <workItem from="1697729643226" duration="69000" />
       <workItem from="1697771982908" duration="1903000" />
       <workItem from="1697773918131" duration="124000" />
+      <workItem from="1697806241381" duration="5052000" />
+      <workItem from="1697856765092" duration="10804000" />
+      <workItem from="1697870246148" duration="145000" />
+      <workItem from="1697942933743" duration="76000" />
+      <workItem from="1698223782975" duration="23000" />
+      <workItem from="1698223827444" duration="176000" />
+      <workItem from="1698224023353" duration="1200000" />
+      <workItem from="1698225252206" duration="2977000" />
+      <workItem from="1698384116063" duration="4000" />
+      <workItem from="1698390261375" duration="25000" />
+      <workItem from="1698391599161" duration="53000" />
+      <workItem from="1698392799904" duration="37000" />
+      <workItem from="1698393553351" duration="81000" />
+      <workItem from="1698394912714" duration="55000" />
+      <workItem from="1698396755368" duration="31000" />
+      <workItem from="1698397087693" duration="45000" />
+      <workItem from="1698397175817" duration="50000" />
+      <workItem from="1698397440505" duration="53000" />
+      <workItem from="1698397713475" duration="75000" />
+      <workItem from="1698397799251" duration="45000" />
+      <workItem from="1698398234987" duration="56000" />
+      <workItem from="1698398336905" duration="15000" />
+      <workItem from="1698398648330" duration="14000" />
+      <workItem from="1698400179079" duration="107000" />
+      <workItem from="1698402046335" duration="45000" />
+      <workItem from="1698409777499" duration="104000" />
+      <workItem from="1698411478600" duration="32000" />
+      <workItem from="1698423300737" duration="4000" />
+      <workItem from="1698424972668" duration="71000" />
+      <workItem from="1698426201309" duration="185000" />
+      <workItem from="1698461272868" duration="12000" />
+      <workItem from="1699001416711" duration="8223000" />
     </task>
     <task id="LOCAL-00001" summary="connect db">
       <option name="closed" value="true" />

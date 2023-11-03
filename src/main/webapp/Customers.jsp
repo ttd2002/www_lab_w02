@@ -43,6 +43,8 @@
         <%
             for (Customer cus : lst_cust){
             long id = cus.getId();
+            String delete_String = "controls?action=delete_Customer&id="+id;
+            String update_String = "controls?action=loadForm&CustId="+id;
         %>
         <tr>
             <td><%=id%></td>
@@ -50,8 +52,8 @@
             <td><%=cus.getEmail()%></td>
             <td><%=cus.getPhone()%></td>
             <td><%=cus.getAddress()%></td>
-            <th><a href="">update</a></th>
-            <th><a href="">delete</a></th>
+            <th><a href=<%=update_String%>>update</a></th>
+            <th><a href=<%=delete_String%>>delete</a></th>
 
         </tr>
         <%}%>

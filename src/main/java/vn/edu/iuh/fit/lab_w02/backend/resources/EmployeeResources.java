@@ -2,6 +2,7 @@ package vn.edu.iuh.fit.lab_w02.backend.resources;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
+import vn.edu.iuh.fit.lab_w02.backend.models.Customer;
 import vn.edu.iuh.fit.lab_w02.backend.models.Employee;
 import vn.edu.iuh.fit.lab_w02.backend.services.EmployeeServices;
 
@@ -44,14 +45,19 @@ public class EmployeeResources {
         employeeServices.insertEmp(employee);
         return Response.ok(employee).build();
     }
+    @GET
+    @Produces("application/json")
+    public Response update(Employee emp){
+        employeeServices.delete_Emp(emp);
+        return Response.ok(emp).build();
+    }
 
-
-    @DELETE
+    /*@DELETE
     @Path(("/{id}"))
     public Response delete(@PathParam("id") long id) {
-        if (employeeServices.delete(id))
+        if (employeeServices.setStatus(id))
             return Response.ok().build();
         return Response.status(Response.Status.NOT_FOUND).build();
-    }
+    }*/
 
 }
